@@ -8,7 +8,7 @@
             </Heading>
 
             <div class="flex items-center justify-end space-x-2">
-                <Dropdown dusk="select-all-dropdown" ref="backupDropdownMenu">
+                <Dropdown dusk="select-all-dropdown">
                     <DropdownTrigger
                         :show-arrow="false"
                         class="rounded hover:bg-gray-200 dark:hover:bg-gray-800 focus:outline-none focus:ring"
@@ -140,7 +140,6 @@ export default {
                 this.__('Creating a new backup in the background...') + ' (' + option + ')'
             );
 
-            this.$refs.backupDropdownMenu.delayedHideMenu();
             return api.createPartialBackup(option);
         },
 
