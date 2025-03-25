@@ -9,12 +9,7 @@
 
             <div class="flex items-center justify-end space-x-2">
                 <Dropdown dusk="select-all-dropdown">
-                    <DropdownTrigger
-                        :show-arrow="false"
-                        class="rounded hover:bg-gray-200 dark:hover:bg-gray-800 focus:outline-none focus:ring"
-                    >
-                        <Button variant="ghost" icon="ellipsis-horizontal" />
-                    </DropdownTrigger>
+                    <Button variant="ghost" icon="ellipsis-horizontal" />
 
                     <template #menu>
                         <DropdownMenu slot="menu" direction="rtl" width="250">
