@@ -1,11 +1,11 @@
 {
-    "name": "spatie/nova-backup-tool",
+    "name": "trscca/nova-backup-tool",
     "description": "A Laravel Nova tool to backup your application.",
     "keywords": [
         "laravel",
         "nova"
     ],
-    "homepage": "https://github.com/spatie/nova-backup-tool",
+    "homepage": "https://github.com/TRSCCA-wm/nova-backup-tool",
     "license": "MIT",
     "authors": [
         {
